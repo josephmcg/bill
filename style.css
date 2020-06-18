@@ -85,11 +85,3 @@ body {
     margin-top: 7rem;
   }
 }
-
-main {
-  margin-top: 40px;
-}
-
-.front main {
-  margin-top: 0;
-}
