@@ -54,10 +54,9 @@ body {
   ------------------------- */
 
 .featurette-divider {
-  margin: 5rem 0; /* Space out the Bootstrap <hr> more */
+  margin: 5rem 0;
 }
 
-/* Thin out the marketing headings */
 .featurette-heading {
   font-weight: 300;
   line-height: 1;
@@ -83,5 +82,15 @@ body {
 @media (min-width: 62em) {
   .featurette-heading {
     margin-top: 7rem;
+  }
+}
+
+.contactBtn {
+  width: 100%;
+}
+
+@media (min-width: 992px) {
+  .contactBtn {
+    width: 30%;
   }
 }
