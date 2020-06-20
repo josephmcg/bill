@@ -23,6 +23,13 @@
       crossorigin="anonymous"
     />
 
+    <link
+      href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+      rel="stylesheet"
+      integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN"
+      crossorigin="anonymous"
+    />
+
     <link href="style.css" rel="stylesheet" />
   </head>
   <body>
@@ -84,8 +91,8 @@
           collaborating, please <a href="contact.html">contact him</a>.
         </p>
 
-        <div class="row mb-5">
-          <div class="col-lg-4 offset-lg-1">
+        <div class="row">
+          <div class="col-lg-4 offset-lg-1 mb-4 text-center">
             <a
               rel="noreferrer noopener"
               href="https://brill.com/view/title/55111"
@@ -125,8 +132,8 @@
           </div>
         </div>
 
-        <div class="row mb-5">
-          <div class="col-lg-4 offset-lg-1">
+        <div class="row">
+          <div class="col-lg-4 offset-lg-1 mb-4 text-center">
             <a
               href="https://brill.com/view/journals/asme/12/1-2/asme.12.issue-1-2.xml?language=en"
               target="_blank"
@@ -294,9 +301,12 @@
         </p>
       </div>
       <footer class="container border-top pt-5">
-        <p class="float-right"><a href="#">Back to top</a></p>
+        <!-- <p class="float-right"><a href="#">Back to top</a></p> -->
         <p>&copy; 2020 William A. McGrath</p>
       </footer>
+      <a href="#" id="topBtn"
+        ><i class="fa fa-chevron-up" aria-hidden="true"></i
+      ></a>
     </main>
 
     <!-- scripts
@@ -319,5 +329,6 @@
     <script>
       window.jQuery || document.write('<script src="jquery.min.js"><\/script>');
     </script>
+    <script src="toTop.js"></script>
   </body>
 </html>

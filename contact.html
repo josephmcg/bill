@@ -23,6 +23,13 @@
       crossorigin="anonymous"
     />
 
+    <link
+      href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+      rel="stylesheet"
+      integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN"
+      crossorigin="anonymous"
+    />
+
     <link href="style.css" rel="stylesheet" />
   </head>
   <body>
@@ -160,9 +167,12 @@
         </form>
       </div>
       <footer class="container border-top pt-5">
-        <p class="float-right"><a href="#">Back to top</a></p>
+        <!-- <p class="float-right"><a href="#">Back to top</a></p> -->
         <p>&copy; 2020 William A. McGrath</p>
       </footer>
+      <a href="#" id="topBtn"
+        ><i class="fa fa-chevron-up" aria-hidden="true"></i
+      ></a>
     </main>
 
     <!-- scripts
@@ -185,5 +195,6 @@
     <script>
       window.jQuery || document.write('<script src="jquery.min.js"><\/script>');
     </script>
+    <script src="toTop.js"></script>
   </body>
 </html>
