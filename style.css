@@ -94,3 +94,31 @@ body {
     width: 30%;
   }
 }
+
+.fa {
+  font-size: 3em;
+}
+
+.card {
+  border: #dddddd 1px solid;
+  min-height: 300px;
+}
+.card a {
+  padding: 10px;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  color: inherit;
+  text-decoration: none;
+}
+.card:hover {
+  box-shadow: 0 4px 7px 0px rgba(25, 25, 25, 0.1);
+  transform: translatey(-7px);
+  transition: all 0.2s ease-in-out;
+}
+
+@media (min-width: 992px) and (max-width: 1199.98px) {
+  .card {
+    min-height: 350px;
+  }
+}
