@@ -115,7 +115,7 @@
             >Manhattan College</a
           >.
         </p>
-        <form name="contact" netlify>
+        <form name="contact" netlify netlify-honeypot="url">
           <div class="row">
             <div class="col-md-6">
               <div class="form-group">
@@ -151,9 +151,14 @@
                   name="Message"
                   class="form-control"
                   placeholder="Your Message *"
-                  style="width: 100%; height: 150px;"
+                  style="width: 100%; height: 146px;"
                   required
                 ></textarea>
+                <div class="d-none">
+                  <label
+                    >Don’t fill this out if you're human: <input name="url"
+                  /></label>
+                </div>
               </div>
             </div>
           </div>
