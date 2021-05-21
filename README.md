@@ -1,2 +1,3 @@
 # bill
-website for my brother
+
+Static site built w/ bootstrap 4
